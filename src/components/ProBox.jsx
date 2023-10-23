@@ -1,5 +1,4 @@
 import { IconBrandGithub, IconExternalLink } from "@tabler/icons-react";
-import { useState } from "react";
 
 function ProBox({
   title,
@@ -9,12 +8,10 @@ function ProBox({
   techno2,
   code,
   demo,
-  scrollY,
   cName,
   icon,
   date,
 }) {
-  const [scroll, setScroll] = useState(false);
   return (
     <>
       <div className={`pro pro__1 ${cName}`}>
@@ -23,12 +20,6 @@ function ProBox({
             <img
               src={img}
               alt="website"
-              style={{
-                transform: scroll ? `translateY(${scrollY})` : "translateY(0%)",
-                transition: "transform 10s ease-in-out",
-              }}
-              onMouseEnter={() => setScroll(true)}
-              onMouseLeave={() => setScroll(false)}
             />
           </a>
         </div>
@@ -39,7 +30,6 @@ function ProBox({
           <p>{description}</p>
           <div className="stack">
             <p>{techno1}</p>
-            <p>{techno2}</p>
           </div>
           <div className="links">
             <a target="_blank" href={code} rel="noreferrer">

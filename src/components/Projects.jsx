@@ -1,4 +1,4 @@
-import AgadirExplorer from "../Media/AgadirExplorer.webp"
+import AgadirExplorer from "../Media/AGA EXPLORER .jpg"
 import ProBox from "./ProBox";
 
 function Projects() {
@@ -13,13 +13,11 @@ function Projects() {
               <ProBox
                 title="Agadir Explorer"
                 img={AgadirExplorer}
-                date="(February 2023)"
-                description="A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars."
+                description="Agadir Explorer: Your digital gateway to Agadir, blending tech and local insights for an immersive journey through the city's culture, history, and attractions."
                 techno1="React"
                 code="https://github.com/"
                 demo="https://agadirexplorer.vercel.app/"
-                scrollY="-83%"
-                icon="🚗"
+                icon="🗺️"
               />
 
             </div>
