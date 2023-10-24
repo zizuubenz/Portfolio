@@ -1,3 +1,9 @@
+.spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Make the container take up the entire viewport height */
+}
 .spinner {
     width: 56px;
     height: 56px;

@@ -23,7 +23,9 @@ function Home() {
   return (
     <>
       {showSpinner ? (
-        <div className="spinner"></div>
+        <div className="spinner-container">
+          <div className="spinner"></div>
+        </div>
       ) : (
         <>
           <Navbar />
