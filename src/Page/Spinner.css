@@ -5,8 +5,8 @@
     height: 100vh; /* Make the container take up the entire viewport height */
 }
 .spinner {
-    width: 56px;
-    height: 56px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     background: radial-gradient(farthest-side,#2d2e32 94%,#0000) top/9px 9px no-repeat,
            conic-gradient(#0000 30%,#2d2e32);
