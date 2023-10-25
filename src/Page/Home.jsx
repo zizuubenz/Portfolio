@@ -5,6 +5,7 @@ import AboutMe from "../components/AboutMe";
 import Contact from "../components/Contact";
 import Projects from "../components/Projects";
 import Footer from "../components/Footer";
+import { analytics } from '@vercel/analytics';
 
 function Home() {
 
