@@ -12,15 +12,13 @@ function AboutMe() {
               <img src={AboutImg} alt="mee" className="img-side__main-img" />
             </div>
             <div className="text-side">
-              <h3>About me</h3>
+              <h3>A propos de moi</h3>
               <h4>
-              A passionate Front-End Developer And UI/UX Designer<br/> 
-              hailing from the enchanting coastal city of Agadir, Morocco 🌊📍
+              
+Un passionné de développement Front-End et de conception UI/UX venant de la charmante ville côtière d'Agadir, au Maroc 🌊📍.
               </h4>
               <p>
-My creative journey unfolds through the captivating realms of React, React Native, Figma, and Adobe Illustrator, painting digital masterpieces one line of code at a time.
-As a Junior Front-End Developer, I wield a formidable arsenal of skills encompassing HTML, CSS, JavaScript, React and React Native.
-My design sensibilities shine through in my work, as I am committed to crafting exquisite, user-friendly websites that seamlessly adapt to all devices. I find my joy in composing dynamic, engaging interfaces, constructing them with immaculate, performance-driven code, and leveraging the latest in web development tools and techniques.
+              Mon parcours créatif se dévoile à travers les fascinantes sphères de React, React Native, Figma et Adobe Illustrator, peignant des chefs-d'œuvre numériques, une ligne de code à la fois. En tant que Développeur Front-End Junior, je manie un formidable arsenal de compétences englobant HTML, CSS, JavaScript, React et React Native. Mes sensibilités en matière de design se manifestent dans mon travail, car je m'engage à concevoir des sites web exquis et conviviaux qui s'adaptent parfaitement à tous les appareils. Je trouve ma joie dans la création d'interfaces dynamiques et captivantes, les construisant avec un code impeccable axé sur les performances, et tirant parti des derniers outils et techniques de développement web.
               </p>
             </div>
           </div>

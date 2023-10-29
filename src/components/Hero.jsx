@@ -25,18 +25,17 @@ function Hero() {
           <div className="content">
             <div className="hero-main">
               <div className="hero-text">
-                <h1>Front-end Developer and UX / UI Designer </h1>
+                <h1>Développeur Front-end et UX/UI Designer </h1>
                 
                 <p>
-                  Hi, I'm Abdelhakim Ouchiar. A passionate Front-end React
-                  Developer based in Agadir, Morocco. 📍
+                Bonjour, je suis Zaidane Hamza. Un développeur Front-end passionné spécialisé dans React, basé à Agadir, au Maroc. 📍
                 </p>
                 <span>
                   <a
                     aria-label="linkedin"
                     rel="noreferrer"
                     target="_blank"
-                    href="https://www.linkedin.com/in/oushi33r/"
+                    href="https://www.linkedin.com/in/hamza-zaidane"
                   >
                     <IconBrandLinkedin width={32} height={32} />
                   </a>
@@ -44,7 +43,7 @@ function Hero() {
                     aria-label="github"
                     rel="noreferrer"
                     target="_blank"
-                    href="https://github.com/OUSHI33R"
+                    href="https://github.com/zizuubenz"
                   >
                     <IconBrandGithub width={32} height={32} />
                   </a>

@@ -7,14 +7,14 @@ function Footer() {
         <div className="container">
           <div className="footerc">
             <h3>
-              Copyright © {new Date().getFullYear()}. All rights are reserved
+              Copyright © {new Date().getFullYear()}. Tous les droit sont réserver
             </h3>
             <div className="footerc__socials">
               <a
                 aria-label="linkedin"
                 target="_blank"
                 rel="noreferrer"
-                href="https://www.linkedin.com/in/oushi33r/"
+                href="https://www.linkedin.com/in/hamza-zaidane"
               >
                 <IconBrandLinkedin width={30} height={30} />
               </a>
@@ -22,7 +22,7 @@ function Footer() {
                 aria-label="github"
                 target="_blank"
                 rel="noreferrer"
-                href="https://github.com/OUSHI33R"
+                href="https://github.com/zizuubenz"
               >
                 <IconBrandGithub width={30} height={30} />
               </a>

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./Styles.css";
-
+import ZaidaneLogo from "../Media/zaidanelogotransparent.png"
 import { IconMenu2, IconX } from "@tabler/icons-react";
 
 function Navbar() {
@@ -16,15 +16,15 @@ function Navbar() {
 
   const navlinks = [
     {
-      name: "Home",
+      name: "Accueil",
       link: "#home",
     },
     {
-      name: "About",
+      name: "A propos",
       link: "#about",
     },
     {
-      name: "Projects",
+      name: "Projets",
       link: "#projects",
     },
     {
@@ -36,9 +36,8 @@ function Navbar() {
   return (
     <>
       <nav >
-        <h3 onClick={pageUp} className="logo">
-          {"<OUSHIAR/>"}
-        </h3>
+        <img src={ZaidaneLogo} onClick={pageUp} className="logo"></img>
+        
         <ul>
           {navlinks.map((item) => (
             <li key={item.name}>
